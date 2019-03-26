@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+  background-color:pink;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 50px);
+  margin: 0;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+.card {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Germania One', cursive;
+    font-size: 30px;
+}
+
+h2 {
+  font-family: 'Germania One', cursive;
+}
+
+p,
+a {
+  font-family: 'Lobster', cursive;
+
+}
